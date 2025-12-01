@@ -36,29 +36,7 @@ const loadWordDetail= async(id)=>{
 const displayWordDetails=(word) =>{
     console.log(word);
     const detailsBox=document.getElementById("details-container");
-     detailsBox.innerHTML = `
-     
-      <div class="">
-        <h2 class="font-bold text-2xl">
-          ${word.word} (<i class="fa-solid fa-microphone-lines"></i> :${word.pronunciation})
-        </h2>
-      </div>
-      <div class="">
-        <h2 class="font-bold">Meaning</h2>
-        <p>${word.meaning}</p>
-        </div>
-      
-      <div class="">
-        <h2 class="font-bold">Example</h2>
-        <p>${word.sentence}</p>
-      </div>
-      <div class="">
-        <h2 class="font-bold">Synonym</h2>
-        <span class="btn">Syn1</span>
-        <span class="btn">Syn1</span>
-        <span class="btn">Syn1</span>
-        </div>
-     `;
+    // detailsBox.innerHTML = "hi js";
     document.getElementById("word_modal").showModal();
 }
 

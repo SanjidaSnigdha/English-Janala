@@ -50,7 +50,7 @@ const displayWordDetails=(word) =>{
       
       <div class="">
         <h2 class="font-bold">Example</h2>
-        <p>${word.sentence}</p>
+        <p>Lorem ipsum dolor sit amet.</p>
       </div>
       <div class="">
         <h2 class="font-bold">Synonym</h2>
