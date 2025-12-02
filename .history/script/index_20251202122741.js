@@ -1,7 +1,7 @@
 
 const createElements=(arr)=>{
     const htmlElements= arr.map(el => `<span class="btn">${el}</span>`);
-    return htmlElements.join(" ");
+    console.log(htmlElements.join(" "));
 }
 
 const synonyms= ["hello", "hi", "konnichiwa"];
@@ -63,7 +63,7 @@ const displayWordDetails=(word) =>{
       </div>
       <div class="">
         <h2 class="font-bold">Synonym</h2>
-        <div class="">${createElements(word.synonyms)}</div>
+        <div class="">${createElements}</div>
         
         </div>
      `;
